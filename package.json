@@ -1,0 +1,24 @@
+{
+  "name": "book-api-submission",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "nodemon ./src/server",
+    "start": "node ./src/server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.49.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.28.1"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "nodemon": "^3.0.1",
+    "shortid": "^2.2.16"
+  }
+}
